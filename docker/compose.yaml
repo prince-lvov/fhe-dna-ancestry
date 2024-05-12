@@ -1,0 +1,6 @@
+services:
+  dna-ancestry:
+    build: .
+    ports:
+      - 5555:22
+    restart: always
